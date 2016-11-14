@@ -21,7 +21,7 @@ document.body.appendChild(renderer.domElement);
   var light = new THREE.DirectionalLight(0xcccccc);
   light.position.set(0,100,30);
   scene.add(light);
-  scenn.add(new THREE.AmbientLight(0x333333));
+  scene.add(new THREE.AmbientLight(0x333333));
 
 var geometry = new THREE.BoxGeometry(1,1,1);
 var material = new THREE.MeshBasicMaterial({color:0xccffcc});
